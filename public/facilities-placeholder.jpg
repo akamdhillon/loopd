@@ -1,0 +1,16 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#FFFBEB"/>
+  <rect x="100" y="100" width="600" height="400" rx="20" fill="#FEF3C7"/>
+  <rect x="150" y="150" width="500" height="200" rx="15" fill="#FDE68A"/>
+  <rect x="200" y="180" width="80" height="120" rx="8" fill="#F59E0B"/>
+  <rect x="300" y="180" width="80" height="120" rx="8" fill="#D97706"/>
+  <rect x="400" y="180" width="80" height="120" rx="8" fill="#B45309"/>
+  <rect x="500" y="180" width="80" height="120" rx="8" fill="#92400E"/>
+  <circle cx="240" cy="200" r="8" fill="#FFFFFF"/>
+  <circle cx="340" cy="200" r="8" fill="#FFFFFF"/>
+  <circle cx="440" cy="200" r="8" fill="#FFFFFF"/>
+  <circle cx="540" cy="200" r="8" fill="#FFFFFF"/>
+  <text x="400" y="550" text-anchor="middle" fill="#6B7280" font-family="Arial, sans-serif" font-size="24">
+    Community Facilities Partnership
+  </text>
+</svg>
