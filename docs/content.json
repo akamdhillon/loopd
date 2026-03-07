@@ -1,0 +1,377 @@
+{
+  "brand": {
+    "name": "Loopd Community",
+    "shortName": "Loopd",
+    "tagline": "Bridging Generations Through Technology",
+    "description": "Connecting seniors with youth volunteers to build confidence, skills, and community connections through technology mentorship.",
+    "email": "hello@loopd.community",
+    "phone": "(555) 123-4567",
+    "officeHours": "Mon-Fri: 9:00 AM - 5:00 PM PST",
+    "url": "https://loopd.community",
+    "serviceArea": "Greater Metro Area",
+    "social": {
+      "facebook": "@LoopCommunity",
+      "instagram": "@LoopCommunity",
+      "linkedin": "Loopd Community"
+    }
+  },
+  "navigation": [
+    { "name": "Home", "href": "/" },
+    { "name": "About", "href": "/about" },
+    { "name": "Programs", "href": "/programs" },
+    { "name": "For Seniors", "href": "/seniors" },
+    { "name": "For Youth", "href": "/youth" },
+    { "name": "For Facilities", "href": "/facilities" },
+    { "name": "Contact", "href": "/contact" }
+  ],
+  "hero": {
+    "title": "Bridging Generations, Building Connections",
+    "subtitle": "Empowering seniors through technology with youth mentorship",
+    "description": "Join our community where seniors gain digital confidence while youth develop leadership skills. Together, we're creating meaningful connections across generations.",
+    "primaryCTA": { "text": "Get Started Today", "href": "/contact" },
+    "secondaryCTA": { "text": "Learn More", "href": "/about" }
+  },
+  "paths": [
+    {
+      "title": "For Seniors",
+      "description": "Learn technology skills in a supportive environment with patient, friendly guidance.",
+      "cta": "I Want to Learn",
+      "href": "/seniors"
+    },
+    {
+      "title": "For Youth",
+      "description": "Volunteer your time to help seniors while gaining valuable leadership experience.",
+      "cta": "I Want to Help",
+      "href": "/youth"
+    },
+    {
+      "title": "For Facilities",
+      "description": "Partner with us to improve resident engagement and digital connectivity.",
+      "cta": "Partner With Us",
+      "href": "/facilities"
+    }
+  ],
+  "mission": {
+    "title": "Our Mission",
+    "description": "We believe that technology should bring people together, not drive them apart. Through our reciprocal mentorship model, we're creating a community where seniors gain digital confidence while youth develop empathy, leadership, and communication skills. Together, we're building bridges across generations."
+  },
+  "howItWorks": {
+    "title": "How Loopd Works",
+    "subtitle": "Our proven three-step approach creates meaningful connections while building essential skills.",
+    "steps": [
+      {
+        "title": "Seniors Gain Confidence",
+        "description": "Learn essential digital skills in a supportive, patient environment with personalized one-on-one guidance."
+      },
+      {
+        "title": "Youth Lead & Mentor",
+        "description": "Develop leadership and communication skills while making a meaningful impact in their community."
+      },
+      {
+        "title": "Facilities Improve Engagement",
+        "description": "Enhance resident satisfaction and family connections through improved digital literacy programs."
+      }
+    ]
+  },
+  "about": {
+    "hero": {
+      "title": "Our Story",
+      "subtitle": "Building bridges across generations through technology",
+      "description": "Discover how Loopd Community is creating meaningful connections while empowering seniors and youth alike."
+    },
+    "challenge": {
+      "title": "The Challenge We're Addressing",
+      "seniorIsolation": {
+        "title": "Senior Isolation & Digital Divide",
+        "paragraphs": [
+          "Many seniors feel left behind by rapidly advancing technology. This digital divide contributes to social isolation, limiting their ability to connect with family, access essential services, and participate fully in modern society.",
+          "Meanwhile, traditional tech support often lacks the patience and understanding that seniors need to feel comfortable learning new skills."
+        ]
+      },
+      "youthPurpose": {
+        "title": "Youth Seeking Purpose",
+        "paragraphs": [
+          "Young people today want to make a meaningful impact in their communities. They possess natural tech skills and energy, but often lack opportunities to apply these abilities in service of others.",
+          "Many youth also miss out on the wisdom and life experience that comes from meaningful intergenerational relationships."
+        ]
+      }
+    },
+    "solution": {
+      "title": "Our Solution: Reciprocal Mentorship",
+      "description": "We've created a unique model where both participants are teachers and learners. Seniors gain digital confidence while youth develop empathy, patience, and leadership skills.",
+      "points": [
+        { "title": "Patient Learning Environment", "description": "Youth mentors understand that learning takes time and create supportive, judgment-free spaces." },
+        { "title": "Mutual Respect", "description": "Both participants bring valuable knowledge and experience to the relationship." },
+        { "title": "Lasting Impact", "description": "Skills and relationships developed through our programs continue long after formal sessions end." }
+      ]
+    },
+    "values": [
+      { "title": "Inclusion", "description": "Technology should be accessible to everyone, regardless of age or experience level." },
+      { "title": "Community", "description": "Building meaningful relationships across generations strengthens our entire community." },
+      { "title": "Empowerment", "description": "Every interaction should leave both participants feeling more confident and capable." }
+    ],
+    "differentiators": [
+      { "title": "Personalized Approach", "description": "One-on-one mentoring ensures each senior learns at their own pace with content tailored to their specific needs and interests." },
+      { "title": "Accessibility First", "description": "Our programs are designed with accessibility in mind, featuring large text, clear instructions, and multilingual support." },
+      { "title": "Community Focus", "description": "We partner with local facilities and organizations to create lasting community connections beyond individual sessions." },
+      { "title": "Proven Results", "description": "Our structured 10-week curriculum has been tested and refined to deliver measurable improvements in digital confidence." }
+    ]
+  },
+  "programs": {
+    "hero": {
+      "title": "Our Programs",
+      "subtitle": "Structured learning for lasting results",
+      "description": "Discover our carefully designed curriculum that builds digital confidence step by step, supported by patient youth mentors.",
+      "primaryCTA": { "text": "Join a Program", "href": "/contact" },
+      "secondaryCTA": { "text": "For Seniors", "href": "/seniors" }
+    },
+    "mentorshipModel": {
+      "title": "Our Mentorship Model",
+      "description": "Every program pairs seniors with trained youth volunteers for personalized, patient learning experiences. Our approach recognizes that everyone learns differently and at their own pace.",
+      "features": [
+        { "title": "1-on-1 Support", "description": "Each senior is paired with a dedicated youth mentor for personalized attention and customized learning." },
+        { "title": "Flexible Scheduling", "description": "Sessions are scheduled around both participants' availability, with options for in-person or virtual meetings." },
+        { "title": "Progress Tracking", "description": "We monitor progress and adjust the curriculum based on individual needs and learning styles." }
+      ]
+    },
+    "curriculum": {
+      "title": "Digital Life Made Easy",
+      "description": "Our flagship 10-week program covers essential digital skills that matter most in daily life. Each week builds on the previous, ensuring solid foundations for lasting confidence.",
+      "weeks": [
+        { "week": 1, "title": "Getting Started with Technology", "content": "Introduction to basic technology concepts, understanding different devices (smartphones, tablets, computers), and building confidence with turning devices on/off and basic navigation." },
+        { "week": 2, "title": "Device Navigation & Touch Basics", "content": "Learning how to use touchscreens, understanding gestures (tap, swipe, pinch), basic menu navigation, and adjusting display settings for better visibility." },
+        { "week": 3, "title": "Internet Basics & Web Browsing", "content": "Understanding what the internet is, how to open a web browser, basic search techniques, and navigating websites safely and effectively." },
+        { "week": 4, "title": "Email & Digital Communication", "content": "Setting up and using email, composing and sending messages, understanding attachments, and basic email organization and safety practices." },
+        { "week": 5, "title": "Video Calling & Staying Connected", "content": "Introduction to video calling platforms (Zoom, FaceTime, WhatsApp), making and receiving calls, and using these tools to connect with family and friends." },
+        { "week": 6, "title": "Telehealth & Medical Technology", "content": "Using technology for healthcare needs, scheduling online appointments, understanding patient portals, and accessing telehealth services safely." },
+        { "week": 7, "title": "Smart Home Basics", "content": "Introduction to smart home devices, voice assistants, smart thermostats, and other home automation tools that can improve daily life." },
+        { "week": 8, "title": "Online Banking & Financial Safety", "content": "Safely accessing online banking, understanding digital payments, recognizing secure websites, and protecting personal financial information." },
+        { "week": 9, "title": "Scam Awareness & Digital Safety", "content": "Identifying common online scams, understanding phishing attempts, creating strong passwords, and general digital safety best practices." },
+        { "week": 10, "title": "Putting It All Together", "content": "Review of all learned skills, troubleshooting common issues, resources for continued learning, and celebrating achievements." }
+      ]
+    },
+    "benefits": [
+      { "title": "Increased Confidence", "description": "Build self-assurance with technology through patient, supportive guidance." },
+      { "title": "Better Connections", "description": "Stay closer to family and friends through digital communication tools." },
+      { "title": "Enhanced Safety", "description": "Learn to identify scams and navigate the digital world safely." },
+      { "title": "Independence", "description": "Gain the skills needed to handle technology independently and confidently." }
+    ],
+    "comingSoon": [
+      { "title": "Social Media for Seniors", "description": "Learn to safely use social media platforms to connect with family and friends." },
+      { "title": "Digital Photography & Sharing", "description": "Capture, organize, and share precious memories using digital photography tools." },
+      { "title": "Online Shopping & E-commerce", "description": "Navigate online shopping safely and confidently, from groceries to gifts." },
+      { "title": "Digital Entertainment", "description": "Discover streaming services, digital books, podcasts, and online entertainment options." }
+    ]
+  },
+  "seniors": {
+    "hero": {
+      "title": "Technology Learning for Seniors",
+      "subtitle": "Learn with confidence, patience, and support",
+      "description": "Join our community where experienced seniors learn technology skills from patient youth mentors. No judgment, no rushing—just supportive learning at your own pace.",
+      "primaryCTA": { "text": "Register Your Interest", "href": "/contact" },
+      "secondaryCTA": { "text": "View Programs", "href": "/programs" }
+    },
+    "benefits": [
+      { "title": "Patient, Supportive Learning", "description": "Learn at your own pace with youth mentors who understand that everyone learns differently." },
+      { "title": "Stay Connected with Family", "description": "Learn to video call grandchildren, share photos, and keep in touch with loved ones." },
+      { "title": "Build Confidence", "description": "Gain the skills and confidence to use technology independently in daily life." },
+      { "title": "Learn Essential Skills", "description": "Master email, web browsing, online banking, telehealth, and more." },
+      { "title": "Safe Learning Environment", "description": "Learn about digital safety and how to protect yourself from online scams." },
+      { "title": "New Friendships", "description": "Build meaningful relationships with young mentors and other participants." }
+    ],
+    "skills": [
+      "Basic device navigation and touchscreen use",
+      "Email setup and communication",
+      "Video calling with family and friends",
+      "Safe web browsing and internet search",
+      "Online banking and digital payments",
+      "Telehealth and medical technology",
+      "Digital safety and scam awareness",
+      "Smart home basics and voice assistants",
+      "Photo sharing and digital memories",
+      "Troubleshooting common tech issues"
+    ],
+    "accessibility": [
+      { "title": "Large Text & Clear Visuals", "description": "All our materials use large, easy-to-read fonts and high-contrast colors." },
+      { "title": "Multilingual Support", "description": "Materials and mentors available in multiple languages to serve our diverse community." },
+      { "title": "Ergonomic Setup", "description": "We help optimize device settings and physical setup for comfort and ease of use." },
+      { "title": "Flexible Pacing", "description": "Learn at your own speed with no pressure to keep up with others." }
+    ],
+    "steps": [
+      { "step": 1, "title": "Register", "description": "Contact us to express your interest and schedule an initial conversation." },
+      { "step": 2, "title": "Get Matched", "description": "We'll pair you with a trained youth mentor based on your goals and preferences." },
+      { "step": 3, "title": "Start Learning", "description": "Begin your 10-week journey with weekly one-on-one sessions at your own pace." },
+      { "step": 4, "title": "Gain Confidence", "description": "Build lasting skills and confidence to use technology independently." }
+    ]
+  },
+  "youth": {
+    "hero": {
+      "title": "Youth Volunteers: Be the Bridge",
+      "subtitle": "Help seniors navigate technology while building your own skills",
+      "description": "Join our community of young mentors making a real difference. Share your tech knowledge, gain valuable experience, and build meaningful relationships across generations.",
+      "primaryCTA": { "text": "Sign Up to Volunteer", "href": "/contact" },
+      "secondaryCTA": { "text": "Learn About Our Program", "href": "/programs" }
+    },
+    "reasons": [
+      { "title": "Make a Real Impact", "description": "Help seniors gain confidence and independence with technology while building meaningful relationships." },
+      { "title": "Earn Volunteer Hours", "description": "Perfect for high school students needing community service hours for graduation or college applications." },
+      { "title": "Develop Leadership Skills", "description": "Practice patience, communication, and teaching skills that will benefit you throughout life." },
+      { "title": "Gain Life Experience", "description": "Learn from the wisdom and life experiences of seniors while sharing your own knowledge." },
+      { "title": "Build Your Resume", "description": "Add meaningful volunteer experience that shows empathy, leadership, and community engagement." },
+      { "title": "Flexible Scheduling", "description": "Choose times that work with your school schedule and other commitments." }
+    ],
+    "activities": [
+      "Provide one-on-one technology mentoring to seniors",
+      "Help with basic device navigation and setup",
+      "Teach email, video calling, and digital communication",
+      "Guide seniors through online safety and scam awareness",
+      "Assist with telehealth and online banking basics",
+      "Support seniors in connecting with family and friends",
+      "Share your patience and enthusiasm for technology",
+      "Learn from seniors' wisdom and life experiences"
+    ],
+    "timeCommitment": "1-2 hours per week for 10 weeks per senior mentee",
+    "skillsGained": [
+      { "title": "Communication Skills", "description": "Learn to explain complex concepts in simple, understandable terms." },
+      { "title": "Patience & Empathy", "description": "Develop patience and understanding when working with different learning styles." },
+      { "title": "Teaching Ability", "description": "Gain experience in breaking down complex topics into manageable steps." },
+      { "title": "Problem-Solving", "description": "Practice creative problem-solving when technology doesn't work as expected." },
+      { "title": "Cultural Awareness", "description": "Learn from seniors' diverse backgrounds and life experiences." },
+      { "title": "Professional Skills", "description": "Develop reliability, time management, and professional communication skills." }
+    ],
+    "volunteerHours": [
+      { "title": "20+ Hours", "description": "Earn meaningful volunteer hours that colleges and scholarship committees value." },
+      { "title": "Documented", "description": "Receive official documentation of your volunteer hours and achievements." },
+      { "title": "Impactful", "description": "Stand out with volunteer work that demonstrates real community impact." }
+    ],
+    "requirements": [
+      "Ages 14-25 (with parental consent for under 18)",
+      "Basic comfort with smartphones, tablets, or computers",
+      "Patience and enthusiasm for helping others",
+      "Ability to commit to weekly sessions for 10 weeks",
+      "Strong communication skills and reliability",
+      "Complete our brief training program"
+    ],
+    "training": [
+      "Communication techniques for different learning styles",
+      "Understanding common technology challenges seniors face",
+      "Patience-building exercises and empathy training",
+      "Technical troubleshooting basics",
+      "Ongoing support from our program coordinators"
+    ],
+    "steps": [
+      { "step": 1, "title": "Apply", "description": "Submit your volunteer application and tell us about your interests." },
+      { "step": 2, "title": "Train", "description": "Complete our training program to prepare for mentoring seniors." },
+      { "step": 3, "title": "Get Matched", "description": "We'll pair you with a senior participant based on schedules and preferences." },
+      { "step": 4, "title": "Start Mentoring", "description": "Begin your rewarding journey as a technology mentor!" }
+    ]
+  },
+  "facilities": {
+    "hero": {
+      "title": "Partner with Loopd Community",
+      "subtitle": "Enhance resident wellbeing through technology mentorship",
+      "description": "Bring our proven intergenerational programs to your facility. Help your residents gain digital confidence while building meaningful connections with youth volunteers.",
+      "primaryCTA": { "text": "Partner With Us", "href": "/contact" },
+      "secondaryCTA": { "text": "View Our Programs", "href": "/programs" }
+    },
+    "benefits": [
+      { "title": "Improved Resident Engagement", "description": "Residents gain new skills and confidence, leading to increased participation in activities and social interactions." },
+      { "title": "Enhanced Family Connections", "description": "Residents learn video calling and digital communication, strengthening relationships with family members." },
+      { "title": "Reduced Social Isolation", "description": "Digital literacy programs help residents stay connected with the outside world and build new relationships." },
+      { "title": "Increased Independence", "description": "Residents develop skills to handle their own technology needs, reducing staff burden and increasing autonomy." },
+      { "title": "Positive Community Impact", "description": "Partner with local youth and demonstrate your commitment to innovative, community-focused care." },
+      { "title": "Staff Development", "description": "Your staff can learn alongside residents, improving their own digital skills and understanding of technology needs." }
+    ],
+    "programSetup": [
+      { "title": "Flexible Implementation", "description": "Programs can be run as 1-on-1 sessions, small groups, or larger workshops based on your facility's needs and preferences." },
+      { "title": "Custom Curriculum", "description": "We adapt our content to match your residents' interests and your facility's specific technology setup and goals." },
+      { "title": "Trained Volunteers", "description": "All youth mentors receive specialized training in working with seniors and understanding the unique needs of facility residents." },
+      { "title": "Minimal Staff Burden", "description": "Our volunteers handle the technology instruction while your staff provides facility knowledge and resident support." },
+      { "title": "Progress Tracking", "description": "Regular progress reports help you demonstrate program value to families, administrators, and regulatory bodies." },
+      { "title": "Ongoing Support", "description": "Our program coordinators provide continuous support to ensure smooth implementation and address any challenges." }
+    ],
+    "programOptions": [
+      { "title": "1-on-1 Mentoring", "description": "Individual sessions between youth mentors and residents for personalized attention and customized learning.", "badge": "Most Popular" },
+      { "title": "Small Group Sessions", "description": "Groups of 3-4 residents with 1-2 mentors for collaborative learning and social interaction." },
+      { "title": "Workshop Format", "description": "Larger group sessions for specific topics like video calling workshops or digital safety presentations." }
+    ],
+    "outcomes": [
+      "Increased resident satisfaction scores",
+      "Improved family communication and visit frequency",
+      "Higher engagement in facility activities and programs",
+      "Reduced feelings of isolation and depression",
+      "Enhanced resident independence and autonomy",
+      "Positive community recognition and partnerships",
+      "Staff development and technology skill improvement",
+      "Demonstration of innovative, person-centered care"
+    ],
+    "facilityTypes": [
+      { "title": "Senior Living Communities", "description": "Independent and assisted living facilities looking to enhance resident technology skills and community engagement." },
+      { "title": "Memory Care Facilities", "description": "Specialized programs adapted for residents with cognitive challenges, focusing on family connection and engagement." },
+      { "title": "Nursing Homes", "description": "Long-term care facilities wanting to improve quality of life and family communication for residents." },
+      { "title": "Adult Day Centers", "description": "Day programs seeking engaging activities that provide practical life skills and social interaction." },
+      { "title": "Community Centers", "description": "Local community centers offering programming for seniors in their neighborhoods." },
+      { "title": "Libraries & Nonprofits", "description": "Public institutions wanting to provide technology education services to their senior community members." }
+    ],
+    "included": [
+      "Trained youth volunteers",
+      "Customized curriculum",
+      "Program coordination",
+      "Progress tracking & reporting",
+      "Ongoing support",
+      "Staff training opportunities"
+    ],
+    "steps": [
+      { "step": 1, "title": "Initial Consultation", "description": "Contact us to discuss your facility's needs and goals for the program." },
+      { "step": 2, "title": "Program Design", "description": "We work with your team to customize the program for your residents and facility." },
+      { "step": 3, "title": "Volunteer Training", "description": "Our youth volunteers receive specialized training for your facility environment." },
+      { "step": 4, "title": "Program Launch", "description": "Begin implementation with ongoing support and progress monitoring." }
+    ]
+  },
+  "contact": {
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "We're here to help you get started",
+      "description": "Whether you're a senior looking to learn, a youth wanting to volunteer, or a facility interested in partnering with us, we'd love to hear from you."
+    },
+    "methods": [
+      { "title": "Email Us", "description": "Send us a message and we'll get back to you within 24 hours.", "details": "hello@loopd.community" },
+      { "title": "Call Us", "description": "Speak with our team directly during business hours.", "details": "(555) 123-4567" },
+      { "title": "Office Hours", "description": "We're available to help during these times.", "details": "Mon-Fri: 9:00 AM - 5:00 PM PST" }
+    ],
+    "formFields": [
+      { "name": "name", "label": "Full Name", "type": "text", "required": true, "placeholder": "Enter your full name" },
+      { "name": "email", "label": "Email Address", "type": "email", "required": true, "placeholder": "Enter your email address" },
+      { "name": "role", "label": "I am a...", "type": "select", "required": true, "options": [
+        { "value": "", "label": "Please select your role" },
+        { "value": "senior", "label": "Senior looking to learn technology" },
+        { "value": "youth", "label": "Youth volunteer interested in helping" },
+        { "value": "facility", "label": "Facility administrator or staff" },
+        { "value": "other", "label": "Other" }
+      ]},
+      { "name": "message", "label": "Message", "type": "textarea", "required": true, "placeholder": "Tell us more about your interest in Loopd Community..." }
+    ]
+  },
+  "faq": [
+    { "question": "How much does the program cost?", "answer": "Our programs are designed to be accessible and affordable. Costs vary based on the type of program and participant needs. Contact us for specific pricing information." },
+    { "question": "What technology do I need to participate?", "answer": "We work with whatever technology you have or help you identify appropriate devices. Common options include smartphones, tablets, or basic computers." },
+    { "question": "How long are the programs?", "answer": "Our flagship program \"Digital Life Made Easy\" runs for 10 weeks with weekly sessions. We also offer shorter workshops and ongoing support." },
+    { "question": "Do I need any prior technology experience?", "answer": "No prior experience is required! Our programs are designed for complete beginners and we meet you where you are." },
+    { "question": "Are sessions in-person or virtual?", "answer": "We offer both in-person and virtual options depending on your preference and location. Many participants enjoy a combination of both." },
+    { "question": "How are youth volunteers trained?", "answer": "All youth volunteers complete comprehensive training on communication, patience, and working with seniors before being matched with participants." }
+  ],
+  "footer": {
+    "description": "Bridging generations through technology. Connecting seniors with youth volunteers to build confidence, skills, and community connections.",
+    "quickLinks": [
+      { "name": "Home", "href": "/" },
+      { "name": "About", "href": "/about" },
+      { "name": "Programs", "href": "/programs" },
+      { "name": "Contact", "href": "/contact" }
+    ],
+    "participantLinks": [
+      { "name": "For Seniors", "href": "/seniors" },
+      { "name": "For Youth", "href": "/youth" },
+      { "name": "For Facilities", "href": "/facilities" }
+    ]
+  }
+}

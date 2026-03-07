@@ -2,50 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom base styles for accessibility and branding */
 @layer base {
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
-    @apply text-gray-900 bg-white;
-    font-feature-settings: 'cv03', 'cv04', 'cv11';
-  }
-
-  /* Large text for accessibility */
-  .text-large {
-    @apply text-lg;
-  }
-
-  /* High contrast focus styles for accessibility */
-  *:focus {
-    @apply outline-2 outline-offset-2 outline-blue-600;
+    @apply text-gray-900 bg-slate-50 antialiased;
   }
 }
 
 @layer components {
-  /* Reusable button styles */
-  .btn-primary {
-    @apply bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2;
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/20 shadow-lg;
   }
 
-  .btn-secondary {
-    @apply bg-white hover:bg-gray-50 text-blue-600 font-semibold py-3 px-6 rounded-lg border-2 border-blue-600 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2;
+  .glass-dark {
+    @apply bg-white/10 backdrop-blur-xl border border-white/20;
   }
 
-  /* Card styles */
-  .card {
-    @apply bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-200 p-6;
+  .glass-card {
+    @apply bg-white/60 backdrop-blur-lg border border-white/30 shadow-xl rounded-2xl;
   }
 
-  /* Section padding */
+  .glass-card-solid {
+    @apply bg-white/80 backdrop-blur-lg border border-gray-100/50 shadow-xl rounded-2xl;
+  }
+
+  .gradient-mesh {
+    background:
+      radial-gradient(at 27% 37%, hsla(215, 98%, 61%, 0.08) 0px, transparent 50%),
+      radial-gradient(at 97% 21%, hsla(199, 98%, 48%, 0.06) 0px, transparent 50%),
+      radial-gradient(at 52% 99%, hsla(354, 98%, 93%, 0.04) 0px, transparent 50%),
+      radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 0.04) 0px, transparent 50%);
+  }
+
   .section-padding {
     @apply py-16 px-4 sm:px-6 lg:px-8;
   }
 
-  /* Container styles */
   .container-custom {
     @apply max-w-7xl mx-auto;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
   }
 }
