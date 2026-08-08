@@ -5,7 +5,7 @@
     "tagline": "Bridging Generations Through Technology",
     "description": "Connecting seniors with youth volunteers to build confidence, skills, and community connections through technology mentorship.",
     "email": "hello@loopd.community",
-    "phone": "(555) 123-4567",
+    "phone": "(555) 123-1234",
     "officeHours": "Mon-Fri: 9:00 AM - 5:00 PM PST",
     "url": "https://loopd.community",
     "serviceArea": "Greater Metro Area",
@@ -336,7 +336,7 @@
     },
     "methods": [
       { "title": "Email Us", "description": "Send us a message and we'll get back to you within 24 hours.", "details": "hello@loopd.community" },
-      { "title": "Call Us", "description": "Speak with our team directly during business hours.", "details": "(555) 123-4567" },
+      { "title": "Call Us", "description": "Speak with our team directly during business hours.", "details": "(555) 123-1234" },
       { "title": "Office Hours", "description": "We're available to help during these times.", "details": "Mon-Fri: 9:00 AM - 5:00 PM PST" }
     ],
     "formFields": [
