@@ -23,7 +23,7 @@ export default function Hero({
 }: HeroProps) {
   return (
     <section
-      className={`relative overflow-hidden bg-gradient-to-br from-gray-900 via-primary-900 to-secondary-900 text-white ${
+      className={`relative overflow-hidden bg-gradient-to-br from-gray-900 via-secondary-900 to-secondary-800 text-white ${
         compact ? "pt-32 pb-20" : "pt-36 pb-28 lg:pt-44 lg:pb-36"
       }`}
     >
@@ -65,7 +65,7 @@ export default function Hero({
             <motion.p
               variants={fadeInUp}
               transition={{ duration: 0.6 }}
-              className="mt-8 text-lg sm:text-xl text-blue-100/80 max-w-2xl mx-auto leading-relaxed"
+              className="mt-8 text-lg sm:text-xl text-secondary-100/80 max-w-2xl mx-auto leading-relaxed"
             >
               {description}
             </motion.p>

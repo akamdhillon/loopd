@@ -21,11 +21,11 @@ export default function ComingSoonSection() {
             className="text-center mb-12"
           >
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-              Coming Soon
+              Upcoming Signature Projects
             </h2>
             <p className="mt-4 text-xl text-gray-500">
-              We&apos;re always expanding our program offerings based on
-              community feedback and needs.
+              Bigger projects that seniors and youth build together over a
+              season.
             </p>
           </motion.div>
 
@@ -41,7 +41,7 @@ export default function ComingSoonSection() {
                   {program.title}
                 </h3>
                 <p className="text-gray-500 mb-4">{program.description}</p>
-                <span className="inline-block px-3 py-1 bg-accent-100 text-accent-700 text-xs font-semibold rounded-full">
+                <span className="inline-block px-3 py-1 bg-secondary-100 text-secondary-700 text-xs font-semibold rounded-full">
                   Coming Soon
                 </span>
               </motion.div>
@@ -58,7 +58,7 @@ export default function ComingSoonSection() {
             </p>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-6 py-3 text-primary-600 font-semibold border-2 border-primary-200 rounded-2xl hover:bg-primary-50 transition-all duration-300"
+              className="inline-flex items-center gap-2 px-6 py-3 text-primary-700 font-semibold border-2 border-primary-200 rounded-2xl hover:bg-primary-50 transition-all duration-300"
             >
               Suggest a Program
             </Link>

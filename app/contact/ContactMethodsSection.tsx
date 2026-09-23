@@ -49,7 +49,7 @@ export default function ContactMethodsSection() {
                   {method.title}
                 </h3>
                 <p className="text-gray-500 mb-4">{method.description}</p>
-                <p className="text-primary-600 font-semibold text-lg">
+                <p className="text-primary-700 font-semibold text-lg">
                   {method.details}
                 </p>
               </motion.div>

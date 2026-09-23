@@ -46,7 +46,7 @@ export default function HowItWorksSection() {
                 <div className="w-16 h-16 bg-gradient-to-br from-primary-100 to-primary-50 rounded-2xl flex items-center justify-center mx-auto mb-6">
                   {icons[i]}
                 </div>
-                <div className="inline-flex items-center justify-center w-8 h-8 bg-primary-500 text-white rounded-full text-sm font-bold mb-4">
+                <div className="inline-flex items-center justify-center w-8 h-8 bg-secondary-600 text-white rounded-full text-sm font-bold mb-4">
                   {i + 1}
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">

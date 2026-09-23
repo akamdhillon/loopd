@@ -10,16 +10,16 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Loopd Community - Bridging Generations Through Technology",
+  title: "Loopd Community - Where Generations Connect",
   description:
-    "Connecting seniors with youth volunteers to build confidence, skills, and community connections through technology mentorship.",
+    "Bringing seniors and youth together through art, stories, games, music, and shared moments that build friendship and belonging.",
   keywords: [
-    "senior technology",
-    "youth mentorship",
-    "digital literacy",
     "intergenerational",
+    "senior activities",
+    "youth volunteering",
+    "senior companionship",
     "community",
-    "technology education",
+    "art for seniors",
   ],
 };
 

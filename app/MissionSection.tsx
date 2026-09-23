@@ -32,7 +32,7 @@ export default function MissionSection() {
         <motion.div variants={fadeInUp} transition={{ duration: 0.5 }}>
           <Link
             href="/about"
-            className="inline-flex items-center gap-2 mt-8 px-6 py-3 text-primary-600 font-semibold border-2 border-primary-200 rounded-2xl hover:bg-primary-50 hover:border-primary-300 transition-all duration-300"
+            className="inline-flex items-center gap-2 mt-8 px-6 py-3 text-primary-700 font-semibold border-2 border-primary-200 rounded-2xl hover:bg-primary-50 hover:border-primary-300 transition-all duration-300"
           >
             Read Our Story
             <svg

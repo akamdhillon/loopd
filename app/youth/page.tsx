@@ -12,7 +12,7 @@ import VolunteerHoursSection from "./VolunteerHoursSection";
 export const metadata: Metadata = {
   title: "For Youth - Loopd Community",
   description:
-    "Join Loopd Community as a youth volunteer mentor. Help seniors learn technology while developing leadership skills and earning volunteer hours.",
+    "Join Loopd Community as a youth volunteer. Share art, stories, games, and music with seniors while developing leadership skills and earning volunteer hours.",
 };
 
 export default function YouthPage() {
@@ -34,8 +34,8 @@ export default function YouthPage() {
       />
 
       <ChecklistSection
-        title="What You'll Do as a Mentor"
-        subtitle={`As a youth mentor, you'll provide patient, one-on-one support. Time Commitment: ${content.youth.timeCommitment}`}
+        title="What You'll Do as a Volunteer"
+        subtitle={`You'll spend quality time with seniors through shared activities. Time Commitment: ${content.youth.timeCommitment}`}
         items={content.youth.activities}
       />
 
@@ -63,7 +63,7 @@ export default function YouthPage() {
 
       <CTASection
         title="Ready to Make a Difference?"
-        description="Join our community of youth volunteers and help build bridges between generations. Your patience, enthusiasm, and tech skills can truly change someone's life."
+        description="Join our community of youth volunteers and help build bridges between generations. Your time, curiosity, and kindness can truly change someone's week."
         primaryCTA={{ text: "Sign Up to Volunteer", href: "/contact" }}
         secondaryCTA={{
           text: "Learn More About Our Program",

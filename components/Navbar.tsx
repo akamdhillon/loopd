@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import content from "@/content/content.json";
@@ -25,20 +26,15 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative w-10 h-10">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary-500 to-primary-700 rounded-xl rotate-6 group-hover:rotate-12 transition-transform duration-300" />
-              <div className="relative w-full h-full bg-gradient-to-br from-primary-500 to-primary-600 rounded-xl flex items-center justify-center">
-                <span className="text-white font-bold text-xl">L</span>
-              </div>
-            </div>
-            <span
-              className={`text-2xl font-bold transition-colors duration-300 ${
-                scrolled ? "text-gray-900" : "text-white"
-              }`}
-            >
-              {content.brand.shortName}
-            </span>
+          <Link href="/" className="flex items-center">
+            <Image
+              src={scrolled ? "/logo.svg" : "/logo-white.svg"}
+              alt={content.brand.name}
+              width={158}
+              height={44}
+              priority
+              className="h-11 w-auto"
+            />
           </Link>
 
           <div className="hidden lg:flex items-center gap-1">
@@ -57,7 +53,7 @@ export default function Navbar() {
             ))}
             <Link
               href="/contact"
-              className="ml-2 px-5 py-2.5 bg-gradient-to-r from-primary-500 to-primary-600 text-white text-sm font-semibold rounded-xl hover:shadow-lg hover:shadow-primary-500/25 hover:-translate-y-0.5 transition-all duration-300"
+              className="ml-2 px-5 py-2.5 bg-gradient-to-r from-primary-600 to-primary-700 text-white text-sm font-semibold rounded-xl hover:shadow-lg hover:shadow-primary-500/25 hover:-translate-y-0.5 transition-all duration-300"
             >
               Get Started
             </Link>
@@ -119,7 +115,7 @@ export default function Navbar() {
               ))}
               <Link
                 href="/contact"
-                className="block mt-2 px-4 py-3 bg-gradient-to-r from-primary-500 to-primary-600 text-white text-center font-semibold rounded-xl"
+                className="block mt-2 px-4 py-3 bg-gradient-to-r from-primary-600 to-primary-700 text-white text-center font-semibold rounded-xl"
                 onClick={() => setIsOpen(false)}
               >
                 Get Started

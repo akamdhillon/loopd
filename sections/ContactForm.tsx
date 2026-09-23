@@ -133,7 +133,7 @@ export default function ContactForm() {
               >
                 <option value="">Please select your role</option>
                 <option value="senior">
-                  Senior looking to learn technology
+                  Senior interested in joining activities
                 </option>
                 <option value="youth">
                   Youth volunteer interested in helping
@@ -167,7 +167,7 @@ export default function ContactForm() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full px-8 py-4 bg-gradient-to-r from-primary-500 to-primary-600 text-white font-semibold rounded-xl hover:shadow-lg hover:shadow-primary-500/25 hover:-translate-y-0.5 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0 text-lg"
+              className="w-full px-8 py-4 bg-gradient-to-r from-primary-600 to-primary-700 text-white font-semibold rounded-xl hover:shadow-lg hover:shadow-primary-500/25 hover:-translate-y-0.5 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0 text-lg"
             >
               {isSubmitting ? "Sending..." : "Send Message"}
             </button>

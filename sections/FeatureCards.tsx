@@ -99,7 +99,7 @@ export default function FeatureCards({
               {feature.cta && feature.href && (
                 <Link
                   href={feature.href}
-                  className="inline-flex items-center text-primary-600 font-semibold hover:text-primary-700 group-hover:gap-3 gap-2 transition-all duration-300"
+                  className="inline-flex items-center text-primary-700 font-semibold hover:text-primary-700 group-hover:gap-3 gap-2 transition-all duration-300"
                 >
                   {feature.cta}
                   <svg

@@ -11,7 +11,7 @@ import content from "@/content/content.json";
 export const metadata: Metadata = {
   title: "For Seniors - Loopd Community",
   description:
-    "Join Loopd Community's technology programs designed specifically for seniors. Learn digital skills with patient youth mentors in a supportive environment.",
+    "Join Loopd Community's intergenerational activities for seniors. Enjoy art, stories, games, music, and conversation with friendly youth volunteers.",
 };
 
 export default function SeniorsPage() {
@@ -28,34 +28,34 @@ export default function SeniorsPage() {
 
       <FeatureCards
         title="Why Join Loopd Community?"
-        subtitle="Our programs are designed specifically with seniors in mind, focusing on practical skills that matter most in your daily life."
+        subtitle="Our programs are designed with seniors in mind, centered on connection, creativity, and time well spent together."
         features={content.seniors.benefits}
       />
 
       <ChecklistSection
-        title="What You'll Learn"
-        subtitle="Our comprehensive curriculum covers the technology skills that matter most in today's world."
-        items={content.seniors.skills}
+        title="Activities You Can Enjoy"
+        subtitle="Try as many as you like. There's something for every interest and ability."
+        items={content.seniors.activities}
       />
 
       <ServicesGrid
         title="Our Accessibility Promise"
-        subtitle="We believe technology should be accessible to everyone. Our programs are designed with accessibility and inclusivity at the forefront."
+        subtitle="Everyone deserves a seat at the table. Our activities are designed with accessibility and inclusivity at the forefront."
         services={content.seniors.accessibility}
         columns={2}
       />
 
       <Testimonials
         title="Success Stories"
-        subtitle="Hear from seniors who have transformed their relationship with technology through our programs."
+        subtitle="Hear from seniors who have found new friendships and joy through our programs."
         placeholder="Testimonials from our senior participants will be featured here soon."
       />
 
       <StepsSection title="How It Works" steps={content.seniors.steps} />
 
       <CTASection
-        title="Ready to Start Your Technology Journey?"
-        description="Join hundreds of seniors who have already discovered the joy and independence that comes with digital confidence. Your patient mentor is waiting to help you succeed."
+        title="Ready to Join the Fun?"
+        description="Join seniors who have already discovered the joy of sharing stories, laughter, and creativity with the next generation. A friendly face is waiting to meet you."
         primaryCTA={{ text: "Register Your Interest", href: "/contact" }}
         secondaryCTA={{ text: "View Programs", href: "/programs" }}
       />

@@ -1,12 +1,12 @@
 # Loopd Community
 
-**Bridging Generations Through Technology**
+**Where Generations Connect**
 
-A modern, responsive community website built with Next.js and Tailwind CSS that connects seniors with youth volunteers for technology mentorship programs.
+A modern, responsive community website built with Next.js and Tailwind CSS that brings seniors and youth volunteers together through shared activities like art, storytelling, games, music, and conversation.
 
 ## 🌟 Project Overview
 
-Loopd Community is a digital platform that facilitates intergenerational technology mentorship. Our mission is to help seniors gain digital confidence while providing youth with valuable leadership experience and community service opportunities.
+Loopd Community facilitates intergenerational connection through shared activities. Our mission is to reduce senior isolation and celebrate their stories and skills while providing youth with valuable leadership experience and community service opportunities.
 
 ## 🚀 Features
 
@@ -20,7 +20,7 @@ Loopd Community is a digital platform that facilitates intergenerational technol
 
 - **Home** (`/`) - Landing page with hero section, mission, and navigation
 - **About** (`/about`) - Our story, problem we solve, and values
-- **Programs** (`/programs`) - Detailed curriculum and program information
+- **Programs** (`/programs`) - Activity menu and program information
 - **For Seniors** (`/seniors`) - Benefits and information for senior participants
 - **For Youth** (`/youth`) - Volunteer opportunities and requirements
 - **For Facilities** (`/facilities`) - Partnership opportunities for senior facilities
@@ -81,9 +81,21 @@ npm run lint
 ## 🎨 Design System
 
 ### Colors
-- **Primary**: Blue (#2563EB) - Trust and technology
-- **Secondary**: Light Blue (#0EA5E9) - Communication and connection
-- **Accent**: Yellow (#EAB308) - Energy and optimism
+- **Primary**: Logo orange (#DF553A, gradient #DF443F to #FCB141) - Energy, warmth, and optimism
+- **Secondary**: Logo purple (#5D18E7) - Community and depth for dark backgrounds
+
+### Logo
+- `public/logo.svg` / `public/logo.png` - full logo for light backgrounds
+- `public/logo-white.svg` / `public/logo-white.png` - white wordmark for dark backgrounds
+- `public/logo-mark.svg` / `public/logo-mark.png` - heart handshake icon only
+- `assets/brand/loopd-logo-original.jpg` - original source image
+
+## Contact Form Email
+
+Set these environment variables in `.env.local` for local development, and in your hosting provider's settings for production:
+
+- `RESEND_API_KEY` - API key from [Resend](https://resend.com/api-keys)
+- `CONTACT_EMAIL` - inbox that receives submissions (defaults to loopd.org@gmail.com)
 
 ### Typography
 - **Font**: Inter (Google Fonts)
@@ -114,7 +126,6 @@ loopd/
 │   ├── Section.tsx     # Content sections
 │   ├── Card.tsx        # Information cards
 │   ├── CTAButton.tsx   # Call-to-action buttons
-│   ├── ProgramAccordion.tsx # Expandable curriculum
 │   └── ContactForm.tsx # Contact form
 ├── public/             # Static assets
 │   ├── logo.svg        # Loopd logo
@@ -201,8 +212,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email hello@loopd.community or create an issue in this repository.
+For support, email loopd.org@gmail.com or create an issue in this repository.
 
 ---
 
-**Built with ❤️ for bridging generations through technology**
+**Built with ❤️ for bringing generations together**

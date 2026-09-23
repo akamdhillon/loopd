@@ -13,7 +13,7 @@ import IncludedSection from "./IncludedSection";
 export const metadata: Metadata = {
   title: "For Facilities - Loopd Community",
   description:
-    "Partner with Loopd Community to enhance resident engagement through innovative technology mentorship programs in your facility.",
+    "Partner with Loopd Community to enhance resident engagement through joyful intergenerational activities like art, music, storytelling, and games.",
 };
 
 export default function FacilitiesPage() {
@@ -30,7 +30,7 @@ export default function FacilitiesPage() {
 
       <FeatureCards
         title="Why Partner with Loopd Community?"
-        subtitle="Our technology mentorship programs deliver measurable improvements in resident engagement, family connections, and overall quality of life."
+        subtitle="Our intergenerational activity programs deliver measurable improvements in resident engagement, mood, and overall quality of life."
         features={content.facilities.benefits}
       />
 

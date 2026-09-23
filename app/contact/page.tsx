@@ -10,7 +10,7 @@ import ConnectSection from "./ConnectSection";
 export const metadata: Metadata = {
   title: "Contact Us - Loopd Community",
   description:
-    "Get in touch with Loopd Community to learn more about our technology mentorship programs or to register your interest.",
+    "Get in touch with Loopd Community to learn more about our intergenerational programs or to register your interest.",
 };
 
 export default function ContactPage() {
@@ -30,7 +30,7 @@ export default function ContactPage() {
 
       <CTASection
         title="Ready to Join Our Community?"
-        description="Don't wait to start your journey with technology or begin making a difference in your community. Reach out today and let's get started!"
+        description="Don't wait to make new friends or begin making a difference in your community. Reach out today and let's get started!"
         primaryCTA={{ text: "Email Us Now", href: `mailto:${content.brand.email}` }}
         secondaryCTA={{ text: "Call Us Today", href: `tel:${content.brand.phone.replace(/[^\d+]/g, "")}` }}
       />

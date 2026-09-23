@@ -57,7 +57,7 @@ export default function CTASection({
           variants={fadeInUp}
           transition={{ duration: 0.5 }}
           className={`mt-6 text-xl max-w-2xl mx-auto ${
-            isGradient ? "text-blue-100/80" : "text-gray-500"
+            isGradient ? "text-secondary-100/80" : "text-gray-500"
           }`}
         >
           {description}
@@ -75,7 +75,7 @@ export default function CTASection({
                 className={`inline-flex items-center justify-center px-8 py-4 font-semibold rounded-2xl transition-all duration-300 text-lg hover:-translate-y-0.5 ${
                   isGradient
                     ? "bg-white text-primary-700 hover:shadow-xl hover:shadow-white/10"
-                    : "bg-gradient-to-r from-primary-500 to-primary-600 text-white hover:shadow-xl hover:shadow-primary-500/25"
+                    : "bg-gradient-to-r from-primary-600 to-primary-700 text-white hover:shadow-xl hover:shadow-primary-500/25"
                 }`}
               >
                 {primaryCTA.text}

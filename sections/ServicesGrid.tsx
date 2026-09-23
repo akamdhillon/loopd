@@ -29,7 +29,7 @@ export default function ServicesGrid({
     <section
       className={`py-24 px-4 sm:px-6 lg:px-8 ${
         dark
-          ? "bg-gradient-to-br from-gray-900 via-primary-900 to-secondary-900 text-white"
+          ? "bg-gradient-to-br from-gray-900 via-secondary-900 to-secondary-800 text-white"
           : "bg-white"
       }`}
     >
@@ -55,7 +55,7 @@ export default function ServicesGrid({
               variants={fadeInUp}
               transition={{ duration: 0.5 }}
               className={`mt-4 text-xl max-w-3xl mx-auto ${
-                dark ? "text-blue-100/70" : "text-gray-500"
+                dark ? "text-secondary-100/70" : "text-gray-500"
               }`}
             >
               {subtitle}
@@ -85,14 +85,20 @@ export default function ServicesGrid({
                 className={`w-10 h-10 rounded-xl flex items-center justify-center mb-5 ${
                   dark
                     ? "bg-white/10"
-                    : "bg-gradient-to-br from-primary-100 to-primary-50"
+                    : i % 2 === 0
+                      ? "bg-gradient-to-br from-primary-100 to-primary-50"
+                      : "bg-gradient-to-br from-secondary-100 to-secondary-50"
                 }`}
               >
                 <div
                   className={`w-5 h-5 rounded-lg ${
                     dark
-                      ? "bg-primary-400"
-                      : "bg-gradient-to-br from-primary-500 to-primary-600"
+                      ? i % 2 === 0
+                        ? "bg-primary-400"
+                        : "bg-secondary-400"
+                      : i % 2 === 0
+                        ? "bg-gradient-to-br from-primary-500 to-primary-600"
+                        : "bg-gradient-to-br from-secondary-500 to-secondary-600"
                   }`}
                 />
               </div>
@@ -105,7 +111,7 @@ export default function ServicesGrid({
               </h3>
               <p
                 className={`leading-relaxed ${
-                  dark ? "text-blue-100/70" : "text-gray-500"
+                  dark ? "text-secondary-100/70" : "text-gray-500"
                 }`}
               >
                 {service.description}

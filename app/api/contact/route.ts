@@ -1,12 +1,28 @@
 import { NextResponse } from "next/server";
 
+function escapeHtml(value: string) {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
 export async function POST(request: Request) {
   try {
     const body = await request.json();
 
     const { name, email, role, message } = body;
 
-    if (!name || !email || !message) {
+    if (
+      typeof name !== "string" ||
+      typeof email !== "string" ||
+      typeof message !== "string" ||
+      !name.trim() ||
+      !email.trim() ||
+      !message.trim()
+    ) {
       return NextResponse.json(
         { error: "Name, email, and message are required." },
         { status: 400 }
@@ -23,9 +39,14 @@ export async function POST(request: Request) {
 
     const resendApiKey = process.env.RESEND_API_KEY;
     const contactEmail =
-      process.env.CONTACT_EMAIL || "hello@loopd.community";
+      process.env.CONTACT_EMAIL || "loopd.org@gmail.com";
 
     if (resendApiKey) {
+      const safeName = escapeHtml(name);
+      const safeEmail = escapeHtml(email);
+      const safeRole = escapeHtml(typeof role === "string" && role ? role : "Not specified");
+      const safeMessage = escapeHtml(message).replace(/\n/g, "<br>");
+
       const res = await fetch("https://api.resend.com/emails", {
         method: "POST",
         headers: {
@@ -35,15 +56,15 @@ export async function POST(request: Request) {
         body: JSON.stringify({
           from: "Loopd Contact Form <onboarding@resend.dev>",
           to: [contactEmail],
-          subject: `New Contact Form Submission from ${name}`,
+          subject: `New Contact Form Submission from ${name.replace(/[\r\n]+/g, " ")}`,
           reply_to: email,
           html: `
             <h2>New Contact Form Submission</h2>
             <table style="border-collapse:collapse;width:100%;max-width:600px;">
-              <tr><td style="padding:8px;font-weight:bold;border-bottom:1px solid #eee;">Name</td><td style="padding:8px;border-bottom:1px solid #eee;">${name}</td></tr>
-              <tr><td style="padding:8px;font-weight:bold;border-bottom:1px solid #eee;">Email</td><td style="padding:8px;border-bottom:1px solid #eee;">${email}</td></tr>
-              <tr><td style="padding:8px;font-weight:bold;border-bottom:1px solid #eee;">Role</td><td style="padding:8px;border-bottom:1px solid #eee;">${role || "Not specified"}</td></tr>
-              <tr><td style="padding:8px;font-weight:bold;vertical-align:top;">Message</td><td style="padding:8px;">${message}</td></tr>
+              <tr><td style="padding:8px;font-weight:bold;border-bottom:1px solid #eee;">Name</td><td style="padding:8px;border-bottom:1px solid #eee;">${safeName}</td></tr>
+              <tr><td style="padding:8px;font-weight:bold;border-bottom:1px solid #eee;">Email</td><td style="padding:8px;border-bottom:1px solid #eee;">${safeEmail}</td></tr>
+              <tr><td style="padding:8px;font-weight:bold;border-bottom:1px solid #eee;">Role</td><td style="padding:8px;border-bottom:1px solid #eee;">${safeRole}</td></tr>
+              <tr><td style="padding:8px;font-weight:bold;vertical-align:top;">Message</td><td style="padding:8px;">${safeMessage}</td></tr>
             </table>
           `,
         }),

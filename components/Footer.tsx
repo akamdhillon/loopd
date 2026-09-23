@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import content from "@/content/content.json";
 
 export default function Footer() {
@@ -14,11 +15,14 @@ export default function Footer() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="md:col-span-2">
-            <Link href="/" className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary-400 to-primary-600 rounded-xl flex items-center justify-center">
-                <span className="text-white font-bold text-xl">L</span>
-              </div>
-              <span className="text-2xl font-bold">{content.brand.shortName}</span>
+            <Link href="/" className="inline-flex items-center mb-6">
+              <Image
+                src="/logo-white.svg"
+                alt={content.brand.name}
+                width={158}
+                height={44}
+                className="h-11 w-auto"
+              />
             </Link>
             <p className="text-gray-400 text-lg leading-relaxed mb-8 max-w-md">
               {content.footer.description}
@@ -88,7 +92,7 @@ export default function Footer() {
             &copy; {currentYear} {content.brand.name}. All rights reserved.
           </p>
           <p className="text-gray-600 text-sm">
-            Built with care for bridging generations through technology
+            Built with care for bringing generations together
           </p>
         </div>
       </div>

@@ -2,11 +2,11 @@
   "brand": {
     "name": "Loopd Community",
     "shortName": "Loopd",
-    "tagline": "Bridging Generations Through Technology",
-    "description": "Connecting seniors with youth volunteers to build confidence, skills, and community connections through technology mentorship.",
-    "email": "hello@loopd.community",
-    "phone": "(555) 123-1111",
-    "officeHours": "Mon-Fri: 9:00 AM - 5:00 PM PST",
+    "tagline": "Where Generations Connect",
+    "description": "Bringing seniors and youth together through art, stories, games, music, and shared moments that build friendship and belonging.",
+    "email": "loopd.org@gmail.com",
+    "phone": "(647) 673-0411",
+    "officeHours": "Mon-Fri: 9:00 AM - 5:00 PM EST",
     "url": "https://loopd.community",
     "serviceArea": "Greater Metro Area",
     "social": {
@@ -25,218 +25,220 @@
     { "name": "Contact", "href": "/contact" }
   ],
   "hero": {
-    "title": "Bridging Generations, Building Connections",
-    "subtitle": "Empowering seniors through technology with youth mentorship",
-    "description": "Join our community where seniors gain digital confidence while youth develop leadership skills. Together, we're creating meaningful connections across generations.",
+    "title": "Where Generations Connect",
+    "subtitle": "Seniors and youth creating, sharing, and laughing together",
+    "description": "From painting sessions and story circles to Chai & Chat afternoons and game days, Loopd brings seniors and youth together for shared experiences that build real friendships across generations.",
     "primaryCTA": { "text": "Get Started Today", "href": "/contact" },
     "secondaryCTA": { "text": "Learn More", "href": "/about" }
   },
   "paths": [
     {
       "title": "For Seniors",
-      "description": "Learn technology skills in a supportive environment with patient, friendly guidance.",
-      "cta": "I Want to Learn",
+      "description": "Enjoy art, stories, music, games, and good conversation with friendly young people in your community.",
+      "cta": "I Want to Join",
       "href": "/seniors"
     },
     {
       "title": "For Youth",
-      "description": "Volunteer your time to help seniors while gaining valuable leadership experience.",
-      "cta": "I Want to Help",
+      "description": "Spend time with seniors, hear their stories, share your energy, and earn volunteer hours along the way.",
+      "cta": "I Want to Volunteer",
       "href": "/youth"
     },
     {
       "title": "For Facilities",
-      "description": "Partner with us to improve resident engagement and digital connectivity.",
+      "description": "Partner with us to bring joyful, engaging intergenerational activities to your residents.",
       "cta": "Partner With Us",
       "href": "/facilities"
     }
   ],
   "mission": {
     "title": "Our Mission",
-    "description": "We believe that technology should bring people together, not drive them apart. Through our reciprocal mentorship model, we're creating a community where seniors gain digital confidence while youth develop empathy, leadership, and communication skills. Together, we're building bridges across generations."
+    "description": "We believe every generation has something to give. Through shared activities like art, storytelling, music, cooking, and conversation, we create spaces where seniors share their wisdom and life experience while youth bring curiosity, energy, and companionship. Together, we're building a more connected community, one shared moment at a time."
   },
   "howItWorks": {
     "title": "How Loopd Works",
-    "subtitle": "Our proven three-step approach creates meaningful connections while building essential skills.",
+    "subtitle": "A simple approach that turns shared activities into lasting connections.",
     "steps": [
       {
-        "title": "Seniors Gain Confidence",
-        "description": "Learn essential digital skills in a supportive, patient environment with personalized one-on-one guidance."
+        "title": "Seniors Share & Connect",
+        "description": "Join fun, welcoming sessions where your stories, skills, and experience are valued and celebrated."
       },
       {
-        "title": "Youth Lead & Mentor",
-        "description": "Develop leadership and communication skills while making a meaningful impact in their community."
+        "title": "Youth Show Up & Engage",
+        "description": "Build empathy, leadership, and communication skills while making a real difference in someone's week."
       },
       {
-        "title": "Facilities Improve Engagement",
-        "description": "Enhance resident satisfaction and family connections through improved digital literacy programs."
+        "title": "Facilities Thrive",
+        "description": "Brighten residents' days with engaging intergenerational activities that reduce isolation and spark joy."
       }
     ]
   },
   "about": {
     "hero": {
       "title": "Our Story",
-      "subtitle": "Building bridges across generations through technology",
-      "description": "Discover how Loopd Community is creating meaningful connections while empowering seniors and youth alike."
+      "subtitle": "Bringing generations together through shared experiences",
+      "description": "Discover how Loopd Community is creating meaningful friendships between seniors and youth through art, stories, and time well spent together."
     },
     "challenge": {
       "title": "The Challenge We're Addressing",
       "seniorIsolation": {
-        "title": "Senior Isolation & Digital Divide",
+        "title": "Senior Isolation & Loneliness",
         "paragraphs": [
-          "Many seniors feel left behind by rapidly advancing technology. This digital divide contributes to social isolation, limiting their ability to connect with family, access essential services, and participate fully in modern society.",
-          "Meanwhile, traditional tech support often lacks the patience and understanding that seniors need to feel comfortable learning new skills."
+          "Many seniors spend long stretches of time alone. Loneliness and social isolation affect physical and mental health, and too many older adults have few chances to share their stories, talents, and experience with others.",
+          "Their wisdom, humor, and history are an incredible gift, yet there are few everyday spaces where younger people get to hear it."
         ]
       },
       "youthPurpose": {
         "title": "Youth Seeking Purpose",
         "paragraphs": [
-          "Young people today want to make a meaningful impact in their communities. They possess natural tech skills and energy, but often lack opportunities to apply these abilities in service of others.",
-          "Many youth also miss out on the wisdom and life experience that comes from meaningful intergenerational relationships."
+          "Young people want to make a meaningful impact in their communities. They bring energy, creativity, and fresh perspectives, but often lack opportunities to connect with people outside their own age group.",
+          "Many youth also miss out on the guidance, perspective, and warmth that come from meaningful intergenerational relationships."
         ]
       }
     },
     "solution": {
-      "title": "Our Solution: Reciprocal Mentorship",
-      "description": "We've created a unique model where both participants are teachers and learners. Seniors gain digital confidence while youth develop empathy, patience, and leadership skills.",
+      "title": "Our Solution: Shared Experiences",
+      "description": "We bring seniors and youth together around activities they both enjoy. Everyone is a contributor: seniors share stories, skills, and life lessons, while youth bring curiosity, energy, and companionship.",
       "points": [
-        { "title": "Patient Learning Environment", "description": "Youth mentors understand that learning takes time and create supportive, judgment-free spaces." },
-        { "title": "Mutual Respect", "description": "Both participants bring valuable knowledge and experience to the relationship." },
-        { "title": "Lasting Impact", "description": "Skills and relationships developed through our programs continue long after formal sessions end." }
+        { "title": "Welcoming Spaces", "description": "Relaxed, judgment-free sessions where everyone can take part at their own pace and comfort level." },
+        { "title": "Mutual Respect", "description": "Both generations bring valuable knowledge, experience, and perspective to the table." },
+        { "title": "Lasting Friendships", "description": "Connections formed over paintbrushes, card games, and cups of chai continue long after sessions end." }
       ]
     },
     "values": [
-      { "title": "Inclusion", "description": "Technology should be accessible to everyone, regardless of age or experience level." },
+      { "title": "Inclusion", "description": "Everyone is welcome, regardless of age, background, ability, or experience." },
       { "title": "Community", "description": "Building meaningful relationships across generations strengthens our entire community." },
-      { "title": "Empowerment", "description": "Every interaction should leave both participants feeling more confident and capable." }
+      { "title": "Joy", "description": "Every session should leave both participants feeling happier, more connected, and more valued." }
     ],
     "differentiators": [
-      { "title": "Personalized Approach", "description": "One-on-one mentoring ensures each senior learns at their own pace with content tailored to their specific needs and interests." },
-      { "title": "Accessibility First", "description": "Our programs are designed with accessibility in mind, featuring large text, clear instructions, and multilingual support." },
+      { "title": "Variety of Activities", "description": "From art and music to cooking, gardening, and storytelling, there's something for every interest and ability." },
+      { "title": "Accessibility First", "description": "Activities are adapted for different mobility, vision, hearing, and cognitive needs, with multilingual support." },
       { "title": "Community Focus", "description": "We partner with local facilities and organizations to create lasting community connections beyond individual sessions." },
-      { "title": "Proven Results", "description": "Our structured 10-week curriculum has been tested and refined to deliver measurable improvements in digital confidence." }
+      { "title": "Two-Way Connection", "description": "Our sessions are designed so seniors and youth both give and both gain, creating genuine friendships rather than one-way help." }
     ]
   },
   "programs": {
     "hero": {
       "title": "Our Programs",
-      "subtitle": "Structured learning for lasting results",
-      "description": "Discover our carefully designed curriculum that builds digital confidence step by step, supported by patient youth mentors.",
+      "subtitle": "Shared activities, lasting connections",
+      "description": "Explore a wide range of activities that bring seniors and youth together to create, share, play, and connect.",
       "primaryCTA": { "text": "Join a Program", "href": "/contact" },
       "secondaryCTA": { "text": "For Seniors", "href": "/seniors" }
     },
-    "mentorshipModel": {
-      "title": "Our Mentorship Model",
-      "description": "Every program pairs seniors with trained youth volunteers for personalized, patient learning experiences. Our approach recognizes that everyone learns differently and at their own pace.",
+    "sessionFormats": {
+      "title": "How Sessions Work",
+      "description": "Every program brings seniors and trained youth volunteers together in a format that fits. Choose what feels right, or try them all.",
       "features": [
-        { "title": "1-on-1 Support", "description": "Each senior is paired with a dedicated youth mentor for personalized attention and customized learning." },
-        { "title": "Flexible Scheduling", "description": "Sessions are scheduled around both participants' availability, with options for in-person or virtual meetings." },
-        { "title": "Progress Tracking", "description": "We monitor progress and adjust the curriculum based on individual needs and learning styles." }
+        { "title": "1-on-1 Buddies", "description": "A senior and a youth volunteer are paired up for regular visits built around shared interests." },
+        { "title": "Small Group Sessions", "description": "Groups of seniors and youth gather for a shared activity like painting, games, or a story circle." },
+        { "title": "Community Events", "description": "Larger celebrations, showcases, and seasonal events that bring the whole community together." }
       ]
     },
-    "curriculum": {
-      "title": "Digital Life Made Easy",
-      "description": "Our flagship 10-week program covers essential digital skills that matter most in daily life. Each week builds on the previous, ensuring solid foundations for lasting confidence.",
-      "weeks": [
-        { "week": 1, "title": "Getting Started with Technology", "content": "Introduction to basic technology concepts, understanding different devices (smartphones, tablets, computers), and building confidence with turning devices on/off and basic navigation." },
-        { "week": 2, "title": "Device Navigation & Touch Basics", "content": "Learning how to use touchscreens, understanding gestures (tap, swipe, pinch), basic menu navigation, and adjusting display settings for better visibility." },
-        { "week": 3, "title": "Internet Basics & Web Browsing", "content": "Understanding what the internet is, how to open a web browser, basic search techniques, and navigating websites safely and effectively." },
-        { "week": 4, "title": "Email & Digital Communication", "content": "Setting up and using email, composing and sending messages, understanding attachments, and basic email organization and safety practices." },
-        { "week": 5, "title": "Video Calling & Staying Connected", "content": "Introduction to video calling platforms (Zoom, FaceTime, WhatsApp), making and receiving calls, and using these tools to connect with family and friends." },
-        { "week": 6, "title": "Telehealth & Medical Technology", "content": "Using technology for healthcare needs, scheduling online appointments, understanding patient portals, and accessing telehealth services safely." },
-        { "week": 7, "title": "Smart Home Basics", "content": "Introduction to smart home devices, voice assistants, smart thermostats, and other home automation tools that can improve daily life." },
-        { "week": 8, "title": "Online Banking & Financial Safety", "content": "Safely accessing online banking, understanding digital payments, recognizing secure websites, and protecting personal financial information." },
-        { "week": 9, "title": "Scam Awareness & Digital Safety", "content": "Identifying common online scams, understanding phishing attempts, creating strong passwords, and general digital safety best practices." },
-        { "week": 10, "title": "Putting It All Together", "content": "Review of all learned skills, troubleshooting common issues, resources for continued learning, and celebrating achievements." }
+    "activities": {
+      "title": "Activities We Share",
+      "description": "Something for every interest. Each activity is adapted to different abilities and comfort levels, so everyone can join in.",
+      "items": [
+        { "title": "Art Studio", "description": "Painting, drawing, and crafts side by side. No experience needed, just a willingness to get a little creative." },
+        { "title": "Story Circle", "description": "Seniors share stories from their lives while youth read aloud, ask questions, and share their own." },
+        { "title": "Chai & Chat", "description": "Relaxed afternoons over tea or coffee, with easy conversation about life, memories, and everything in between." },
+        { "title": "Game Day", "description": "Board games, cards, chess, puzzles, and trivia. A little friendly competition goes a long way." },
+        { "title": "Music & Memories", "description": "Sing-alongs, listening sessions of favorite songs, and performances from young musicians." },
+        { "title": "Kitchen Stories", "description": "Cooking and baking together, swapping family recipes, and building a shared community cookbook." },
+        { "title": "Garden Club", "description": "Planting, tending, and harvesting together, plus gentle nature walks when the weather is nice." },
+        { "title": "Legacy Projects", "description": "Oral history interviews, scrapbooks, memoir writing, and pen pal letters that preserve and share life stories." },
+        { "title": "Move Together", "description": "Chair yoga, stretching, and gentle dance sessions that keep bodies moving and spirits high." },
+        { "title": "Skill Swap", "description": "Seniors teach knitting, woodworking, or a language; youth share a hobby. Everyone learns something new." },
+        { "title": "Seasonal & Cultural Celebrations", "description": "Holiday parties, heritage days, and cultural celebrations that honor traditions across generations." },
+        { "title": "Tech Help Hour", "description": "Optional drop-in help with phones, photos, and video calls for anyone who wants it." }
       ]
     },
     "benefits": [
-      { "title": "Increased Confidence", "description": "Build self-assurance with technology through patient, supportive guidance." },
-      { "title": "Better Connections", "description": "Stay closer to family and friends through digital communication tools." },
-      { "title": "Enhanced Safety", "description": "Learn to identify scams and navigate the digital world safely." },
-      { "title": "Independence", "description": "Gain the skills needed to handle technology independently and confidently." }
+      { "title": "Connection", "description": "Build real friendships that ease loneliness and make every week something to look forward to." },
+      { "title": "Creativity", "description": "Express yourself through art, music, cooking, and storytelling in a supportive space." },
+      { "title": "Wellbeing", "description": "Shared laughter, movement, and conversation that lift mood and support overall health." },
+      { "title": "Purpose", "description": "Feel valued for what you bring, whether that's a lifetime of stories or a fresh perspective." }
     ],
     "comingSoon": [
-      { "title": "Social Media for Seniors", "description": "Learn to safely use social media platforms to connect with family and friends." },
-      { "title": "Digital Photography & Sharing", "description": "Capture, organize, and share precious memories using digital photography tools." },
-      { "title": "Online Shopping & E-commerce", "description": "Navigate online shopping safely and confidently, from groceries to gifts." },
-      { "title": "Digital Entertainment", "description": "Discover streaming services, digital books, podcasts, and online entertainment options." }
+      { "title": "Intergenerational Art Show", "description": "A community exhibition showcasing artwork created together by seniors and youth." },
+      { "title": "Community Cookbook", "description": "A printed collection of family recipes and the stories behind them, gathered in Kitchen Stories sessions." },
+      { "title": "Oral History Podcast", "description": "Youth interview seniors about their lives, preserving stories for families and future generations." },
+      { "title": "Summer Garden Project", "description": "A shared garden planted, tended, and harvested by seniors and youth throughout the season." }
     ]
   },
   "seniors": {
     "hero": {
-      "title": "Technology Learning for Seniors",
-      "subtitle": "Learn with confidence, patience, and support",
-      "description": "Join our community where experienced seniors learn technology skills from patient youth mentors. No judgment, no rushing—just supportive learning at your own pace.",
+      "title": "Activities & Friendship for Seniors",
+      "subtitle": "Create, share, and connect with the next generation",
+      "description": "Join friendly young volunteers for painting, stories, games, music, and good conversation. Come as you are, share what you love, and enjoy time well spent together.",
       "primaryCTA": { "text": "Register Your Interest", "href": "/contact" },
       "secondaryCTA": { "text": "View Programs", "href": "/programs" }
     },
     "benefits": [
-      { "title": "Patient, Supportive Learning", "description": "Learn at your own pace with youth mentors who understand that everyone learns differently." },
-      { "title": "Stay Connected with Family", "description": "Learn to video call grandchildren, share photos, and keep in touch with loved ones." },
-      { "title": "Build Confidence", "description": "Gain the skills and confidence to use technology independently in daily life." },
-      { "title": "Learn Essential Skills", "description": "Master email, web browsing, online banking, telehealth, and more." },
-      { "title": "Safe Learning Environment", "description": "Learn about digital safety and how to protect yourself from online scams." },
-      { "title": "New Friendships", "description": "Build meaningful relationships with young mentors and other participants." }
+      { "title": "Meaningful Companionship", "description": "Spend regular time with kind, curious young people who genuinely want to get to know you." },
+      { "title": "Share Your Story", "description": "Your life experience, skills, and wisdom are valued. Pass them on to a new generation." },
+      { "title": "Try Something New", "description": "Pick up a paintbrush, learn a new game, or rediscover an old hobby in a relaxed setting." },
+      { "title": "Stay Active & Engaged", "description": "Keep your mind and body active through creative projects, gentle movement, and lively conversation." },
+      { "title": "Something to Look Forward To", "description": "Regular sessions bring structure, fun, and connection to your week." },
+      { "title": "New Friendships", "description": "Build meaningful relationships with young volunteers and other participants." }
     ],
-    "skills": [
-      "Basic device navigation and touchscreen use",
-      "Email setup and communication",
-      "Video calling with family and friends",
-      "Safe web browsing and internet search",
-      "Online banking and digital payments",
-      "Telehealth and medical technology",
-      "Digital safety and scam awareness",
-      "Smart home basics and voice assistants",
-      "Photo sharing and digital memories",
-      "Troubleshooting common tech issues"
+    "activities": [
+      "Painting, drawing, and craft sessions",
+      "Story circles and sharing life stories",
+      "Chai & Chat conversation afternoons",
+      "Board games, cards, chess, and puzzles",
+      "Sing-alongs and music listening sessions",
+      "Cooking together and sharing family recipes",
+      "Gardening and gentle nature walks",
+      "Oral history, scrapbooks, and memoir writing",
+      "Chair yoga, stretching, and gentle dance",
+      "Seasonal and cultural celebrations"
     ],
     "accessibility": [
-      { "title": "Large Text & Clear Visuals", "description": "All our materials use large, easy-to-read fonts and high-contrast colors." },
-      { "title": "Multilingual Support", "description": "Materials and mentors available in multiple languages to serve our diverse community." },
-      { "title": "Ergonomic Setup", "description": "We help optimize device settings and physical setup for comfort and ease of use." },
-      { "title": "Flexible Pacing", "description": "Learn at your own speed with no pressure to keep up with others." }
+      { "title": "Large Print & Clear Materials", "description": "Printed materials use large, easy-to-read fonts and high-contrast colors." },
+      { "title": "Multilingual Support", "description": "Volunteers and materials available in multiple languages to serve our diverse community." },
+      { "title": "Adapted Activities", "description": "Every activity can be adjusted for mobility, vision, hearing, or memory needs." },
+      { "title": "Flexible Pacing", "description": "Take part as much or as little as you like, with no pressure to keep up with others." }
     ],
     "steps": [
       { "step": 1, "title": "Register", "description": "Contact us to express your interest and schedule an initial conversation." },
-      { "step": 2, "title": "Get Matched", "description": "We'll pair you with a trained youth mentor based on your goals and preferences." },
-      { "step": 3, "title": "Start Learning", "description": "Begin your 10-week journey with weekly one-on-one sessions at your own pace." },
-      { "step": 4, "title": "Gain Confidence", "description": "Build lasting skills and confidence to use technology independently." }
+      { "step": 2, "title": "Get Matched", "description": "We'll pair you with a youth volunteer or group based on your interests and schedule." },
+      { "step": 3, "title": "Start Connecting", "description": "Join your first session and enjoy activities you love with new friends." },
+      { "step": 4, "title": "Keep It Going", "description": "Build lasting friendships and try new activities whenever you like." }
     ]
   },
   "youth": {
     "hero": {
-      "title": "Youth Volunteers: Be the Bridge",
-      "subtitle": "Help seniors navigate technology while building your own skills",
-      "description": "Join our community of young mentors making a real difference. Share your tech knowledge, gain valuable experience, and build meaningful relationships across generations.",
+      "title": "Be the Bridge: Share Time, Stories & Fun",
+      "subtitle": "Connect with seniors while building your own skills",
+      "description": "Join our community of youth volunteers making a real difference. Paint, play games, cook, and swap stories with seniors while gaining valuable experience and friendships that last.",
       "primaryCTA": { "text": "Sign Up to Volunteer", "href": "/contact" },
       "secondaryCTA": { "text": "Learn About Our Program", "href": "/programs" }
     },
     "reasons": [
-      { "title": "Make a Real Impact", "description": "Help seniors gain confidence and independence with technology while building meaningful relationships." },
+      { "title": "Make a Real Impact", "description": "Help ease loneliness and brighten someone's week just by showing up and being present." },
       { "title": "Earn Volunteer Hours", "description": "Perfect for high school students needing community service hours for graduation or college applications." },
-      { "title": "Develop Leadership Skills", "description": "Practice patience, communication, and teaching skills that will benefit you throughout life." },
-      { "title": "Gain Life Experience", "description": "Learn from the wisdom and life experiences of seniors while sharing your own knowledge." },
+      { "title": "Develop Leadership Skills", "description": "Lead activities, facilitate conversations, and practice patience and communication." },
+      { "title": "Gain Life Experience", "description": "Hear first-hand stories about history, careers, and life lessons you won't find in a textbook." },
       { "title": "Build Your Resume", "description": "Add meaningful volunteer experience that shows empathy, leadership, and community engagement." },
       { "title": "Flexible Scheduling", "description": "Choose times that work with your school schedule and other commitments." }
     ],
     "activities": [
-      "Provide one-on-one technology mentoring to seniors",
-      "Help with basic device navigation and setup",
-      "Teach email, video calling, and digital communication",
-      "Guide seniors through online safety and scam awareness",
-      "Assist with telehealth and online banking basics",
-      "Support seniors in connecting with family and friends",
-      "Share your patience and enthusiasm for technology",
-      "Learn from seniors' wisdom and life experiences"
+      "Paint, draw, and craft alongside seniors in Art Studio",
+      "Host a game day with board games, cards, or trivia",
+      "Read aloud and listen to stories in Story Circle",
+      "Join Chai & Chat conversations over tea or coffee",
+      "Perform music or lead a sing-along",
+      "Cook, bake, and record family recipes",
+      "Interview seniors for oral history and legacy projects",
+      "Help plan seasonal and cultural celebrations"
     ],
-    "timeCommitment": "1-2 hours per week for 10 weeks per senior mentee",
+    "timeCommitment": "1-2 hours per week, flexible",
     "skillsGained": [
-      { "title": "Communication Skills", "description": "Learn to explain complex concepts in simple, understandable terms." },
-      { "title": "Patience & Empathy", "description": "Develop patience and understanding when working with different learning styles." },
-      { "title": "Teaching Ability", "description": "Gain experience in breaking down complex topics into manageable steps." },
-      { "title": "Problem-Solving", "description": "Practice creative problem-solving when technology doesn't work as expected." },
-      { "title": "Cultural Awareness", "description": "Learn from seniors' diverse backgrounds and life experiences." },
+      { "title": "Communication Skills", "description": "Learn to hold meaningful conversations and really listen to people with different life experiences." },
+      { "title": "Patience & Empathy", "description": "Develop understanding and compassion for people at different stages of life." },
+      { "title": "Leadership", "description": "Gain experience planning and leading group activities and events." },
+      { "title": "Creativity", "description": "Bring new ideas to sessions and find fun ways to include everyone." },
+      { "title": "Cultural Awareness", "description": "Learn from seniors' diverse backgrounds, traditions, and life experiences." },
       { "title": "Professional Skills", "description": "Develop reliability, time management, and professional communication skills." }
     ],
     "volunteerHours": [
@@ -246,84 +248,84 @@
     ],
     "requirements": [
       "Ages 14-25 (with parental consent for under 18)",
-      "Basic comfort with smartphones, tablets, or computers",
-      "Patience and enthusiasm for helping others",
-      "Ability to commit to weekly sessions for 10 weeks",
+      "Kindness, curiosity, and a friendly attitude",
+      "Patience and enthusiasm for spending time with others",
+      "Ability to commit to regular weekly sessions",
       "Strong communication skills and reliability",
       "Complete our brief training program"
     ],
     "training": [
-      "Communication techniques for different learning styles",
-      "Understanding common technology challenges seniors face",
-      "Patience-building exercises and empathy training",
-      "Technical troubleshooting basics",
+      "Communication and active listening techniques",
+      "Understanding the needs and experiences of older adults",
+      "Adapting activities for different abilities",
+      "Empathy and patience-building exercises",
       "Ongoing support from our program coordinators"
     ],
     "steps": [
       { "step": 1, "title": "Apply", "description": "Submit your volunteer application and tell us about your interests." },
-      { "step": 2, "title": "Train", "description": "Complete our training program to prepare for mentoring seniors." },
-      { "step": 3, "title": "Get Matched", "description": "We'll pair you with a senior participant based on schedules and preferences." },
-      { "step": 4, "title": "Start Mentoring", "description": "Begin your rewarding journey as a technology mentor!" }
+      { "step": 2, "title": "Train", "description": "Complete our training program to prepare for spending time with seniors." },
+      { "step": 3, "title": "Get Matched", "description": "We'll pair you with a senior or group based on schedules and shared interests." },
+      { "step": 4, "title": "Start Connecting", "description": "Begin your rewarding journey building friendships across generations!" }
     ]
   },
   "facilities": {
     "hero": {
       "title": "Partner with Loopd Community",
-      "subtitle": "Enhance resident wellbeing through technology mentorship",
-      "description": "Bring our proven intergenerational programs to your facility. Help your residents gain digital confidence while building meaningful connections with youth volunteers.",
+      "subtitle": "Enhance resident wellbeing through intergenerational activities",
+      "description": "Bring our intergenerational programs to your facility. Give your residents art, music, stories, and games with youth volunteers who make every visit something to look forward to.",
       "primaryCTA": { "text": "Partner With Us", "href": "/contact" },
       "secondaryCTA": { "text": "View Our Programs", "href": "/programs" }
     },
     "benefits": [
-      { "title": "Improved Resident Engagement", "description": "Residents gain new skills and confidence, leading to increased participation in activities and social interactions." },
-      { "title": "Enhanced Family Connections", "description": "Residents learn video calling and digital communication, strengthening relationships with family members." },
-      { "title": "Reduced Social Isolation", "description": "Digital literacy programs help residents stay connected with the outside world and build new relationships." },
-      { "title": "Increased Independence", "description": "Residents develop skills to handle their own technology needs, reducing staff burden and increasing autonomy." },
+      { "title": "Improved Resident Engagement", "description": "Fresh, fun activities lead to increased participation in programming and social interaction." },
+      { "title": "Brighter Moods", "description": "Regular visits from young people bring energy, laughter, and something to look forward to." },
+      { "title": "Reduced Social Isolation", "description": "Intergenerational friendships help residents feel seen, valued, and connected to their community." },
+      { "title": "Meaningful Stimulation", "description": "Creative, social, and physical activities help keep minds and bodies active." },
       { "title": "Positive Community Impact", "description": "Partner with local youth and demonstrate your commitment to innovative, community-focused care." },
-      { "title": "Staff Development", "description": "Your staff can learn alongside residents, improving their own digital skills and understanding of technology needs." }
+      { "title": "Support for Activity Staff", "description": "Our volunteers add capacity and new ideas to your existing activity calendar." }
     ],
     "programSetup": [
-      { "title": "Flexible Implementation", "description": "Programs can be run as 1-on-1 sessions, small groups, or larger workshops based on your facility's needs and preferences." },
-      { "title": "Custom Curriculum", "description": "We adapt our content to match your residents' interests and your facility's specific technology setup and goals." },
-      { "title": "Trained Volunteers", "description": "All youth mentors receive specialized training in working with seniors and understanding the unique needs of facility residents." },
-      { "title": "Minimal Staff Burden", "description": "Our volunteers handle the technology instruction while your staff provides facility knowledge and resident support." },
-      { "title": "Progress Tracking", "description": "Regular progress reports help you demonstrate program value to families, administrators, and regulatory bodies." },
+      { "title": "Flexible Implementation", "description": "Programs can be run as 1-on-1 visits, small groups, or larger events based on your facility's needs and preferences." },
+      { "title": "Custom Activity Plans", "description": "We tailor activities to your residents' interests, abilities, and your facility's space and schedule." },
+      { "title": "Trained Volunteers", "description": "All youth volunteers receive specialized training in working with seniors and understanding the unique needs of facility residents." },
+      { "title": "Minimal Staff Burden", "description": "Our volunteers lead and support activities while your staff provides facility knowledge and resident support." },
+      { "title": "Progress Tracking", "description": "Regular reports help you demonstrate program value to families, administrators, and regulatory bodies." },
       { "title": "Ongoing Support", "description": "Our program coordinators provide continuous support to ensure smooth implementation and address any challenges." }
     ],
     "programOptions": [
-      { "title": "1-on-1 Mentoring", "description": "Individual sessions between youth mentors and residents for personalized attention and customized learning.", "badge": "Most Popular" },
-      { "title": "Small Group Sessions", "description": "Groups of 3-4 residents with 1-2 mentors for collaborative learning and social interaction." },
-      { "title": "Workshop Format", "description": "Larger group sessions for specific topics like video calling workshops or digital safety presentations." }
+      { "title": "1-on-1 Visits", "description": "Regular visits between a youth volunteer and a resident, built around shared interests and conversation.", "badge": "Most Popular" },
+      { "title": "Small Group Sessions", "description": "Groups of 3-6 residents with youth volunteers for art, games, story circles, and more." },
+      { "title": "Community Events", "description": "Larger gatherings like music afternoons, art shows, and seasonal celebrations." }
     ],
     "outcomes": [
       "Increased resident satisfaction scores",
-      "Improved family communication and visit frequency",
+      "More positive moods and social interaction",
       "Higher engagement in facility activities and programs",
       "Reduced feelings of isolation and depression",
-      "Enhanced resident independence and autonomy",
+      "Stronger sense of purpose and belonging",
       "Positive community recognition and partnerships",
-      "Staff development and technology skill improvement",
+      "Fresh activity ideas and support for activity staff",
       "Demonstration of innovative, person-centered care"
     ],
     "facilityTypes": [
-      { "title": "Senior Living Communities", "description": "Independent and assisted living facilities looking to enhance resident technology skills and community engagement." },
-      { "title": "Memory Care Facilities", "description": "Specialized programs adapted for residents with cognitive challenges, focusing on family connection and engagement." },
-      { "title": "Nursing Homes", "description": "Long-term care facilities wanting to improve quality of life and family communication for residents." },
-      { "title": "Adult Day Centers", "description": "Day programs seeking engaging activities that provide practical life skills and social interaction." },
+      { "title": "Senior Living Communities", "description": "Independent and assisted living facilities looking to enrich their activity programs and community engagement." },
+      { "title": "Memory Care Facilities", "description": "Specialized programs adapted for residents with cognitive challenges, focusing on music, reminiscence, and sensory activities." },
+      { "title": "Nursing Homes", "description": "Long-term care facilities wanting to improve quality of life and social connection for residents." },
+      { "title": "Adult Day Centers", "description": "Day programs seeking engaging activities that provide creativity and social interaction." },
       { "title": "Community Centers", "description": "Local community centers offering programming for seniors in their neighborhoods." },
-      { "title": "Libraries & Nonprofits", "description": "Public institutions wanting to provide technology education services to their senior community members." }
+      { "title": "Libraries & Nonprofits", "description": "Public institutions wanting to host intergenerational story times, workshops, and events." }
     ],
     "included": [
       "Trained youth volunteers",
-      "Customized curriculum",
+      "Customized activity plans",
       "Program coordination",
       "Progress tracking & reporting",
       "Ongoing support",
-      "Staff training opportunities"
+      "Activity supplies guidance"
     ],
     "steps": [
       { "step": 1, "title": "Initial Consultation", "description": "Contact us to discuss your facility's needs and goals for the program." },
-      { "step": 2, "title": "Program Design", "description": "We work with your team to customize the program for your residents and facility." },
+      { "step": 2, "title": "Program Design", "description": "We work with your team to choose activities that suit your residents and facility." },
       { "step": 3, "title": "Volunteer Training", "description": "Our youth volunteers receive specialized training for your facility environment." },
       { "step": 4, "title": "Program Launch", "description": "Begin implementation with ongoing support and progress monitoring." }
     ]
@@ -332,19 +334,19 @@
     "hero": {
       "title": "Get in Touch",
       "subtitle": "We're here to help you get started",
-      "description": "Whether you're a senior looking to learn, a youth wanting to volunteer, or a facility interested in partnering with us, we'd love to hear from you."
+      "description": "Whether you're a senior looking for connection, a youth wanting to volunteer, or a facility interested in partnering with us, we'd love to hear from you."
     },
     "methods": [
-      { "title": "Email Us", "description": "Send us a message and we'll get back to you within 24 hours.", "details": "hello@loopd.community" },
-      { "title": "Call Us", "description": "Speak with our team directly during business hours.", "details": "(555) 123-1111" },
-      { "title": "Office Hours", "description": "We're available to help during these times.", "details": "Mon-Fri: 9:00 AM - 5:00 PM PST" }
+      { "title": "Email Us", "description": "Send us a message and we'll get back to you within 24 hours.", "details": "loopd.org@gmail.com" },
+      { "title": "Call Us", "description": "Speak with our team directly during business hours.", "details": "(647) 673-0411" },
+      { "title": "Office Hours", "description": "We're available to help during these times.", "details": "Mon-Fri: 9:00 AM - 5:00 PM EST" }
     ],
     "formFields": [
       { "name": "name", "label": "Full Name", "type": "text", "required": true, "placeholder": "Enter your full name" },
       { "name": "email", "label": "Email Address", "type": "email", "required": true, "placeholder": "Enter your email address" },
       { "name": "role", "label": "I am a...", "type": "select", "required": true, "options": [
         { "value": "", "label": "Please select your role" },
-        { "value": "senior", "label": "Senior looking to learn technology" },
+        { "value": "senior", "label": "Senior interested in joining activities" },
         { "value": "youth", "label": "Youth volunteer interested in helping" },
         { "value": "facility", "label": "Facility administrator or staff" },
         { "value": "other", "label": "Other" }
@@ -354,14 +356,14 @@
   },
   "faq": [
     { "question": "How much does the program cost?", "answer": "Our programs are designed to be accessible and affordable. Costs vary based on the type of program and participant needs. Contact us for specific pricing information." },
-    { "question": "What technology do I need to participate?", "answer": "We work with whatever technology you have or help you identify appropriate devices. Common options include smartphones, tablets, or basic computers." },
-    { "question": "How long are the programs?", "answer": "Our flagship program \"Digital Life Made Easy\" runs for 10 weeks with weekly sessions. We also offer shorter workshops and ongoing support." },
-    { "question": "Do I need any prior technology experience?", "answer": "No prior experience is required! Our programs are designed for complete beginners and we meet you where you are." },
-    { "question": "Are sessions in-person or virtual?", "answer": "We offer both in-person and virtual options depending on your preference and location. Many participants enjoy a combination of both." },
-    { "question": "How are youth volunteers trained?", "answer": "All youth volunteers complete comprehensive training on communication, patience, and working with seniors before being matched with participants." }
+    { "question": "Do I need to bring supplies?", "answer": "No. We provide the art supplies, games, and materials needed for each activity. If you have a favorite recipe, song, photo, or keepsake to share, you're always welcome to bring it." },
+    { "question": "How long are the programs?", "answer": "Most sessions run about an hour, and you can join weekly for as long as you like. We also host one-time events and seasonal celebrations throughout the year." },
+    { "question": "Do I need any special skills or experience?", "answer": "Not at all! Every activity is beginner-friendly and adapted to different abilities. Just bring yourself and a willingness to connect." },
+    { "question": "Are sessions in-person or virtual?", "answer": "Most sessions happen in person at partner facilities and community spaces. Some activities, like Story Circle and Chai & Chat, can also be joined virtually." },
+    { "question": "How are youth volunteers trained?", "answer": "All youth volunteers complete training on communication, active listening, adapting activities for different abilities, and working with older adults before they are matched with participants." }
   ],
   "footer": {
-    "description": "Bridging generations through technology. Connecting seniors with youth volunteers to build confidence, skills, and community connections.",
+    "description": "Where generations connect. Bringing seniors and youth together through art, stories, games, and shared moments that build friendship and belonging.",
     "quickLinks": [
       { "name": "Home", "href": "/" },
       { "name": "About", "href": "/about" },

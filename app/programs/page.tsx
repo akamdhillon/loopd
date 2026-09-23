@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Hero from "@/sections/Hero";
 import FeatureCards from "@/sections/FeatureCards";
-import ProgramAccordion from "@/sections/ProgramAccordion";
+import ServicesGrid from "@/sections/ServicesGrid";
 import CTASection from "@/sections/CTASection";
 import content from "@/content/content.json";
 import ProgramBenefitsSection from "./BenefitsSection";
@@ -10,7 +10,7 @@ import ComingSoonSection from "./ComingSoonSection";
 export const metadata: Metadata = {
   title: "Programs - Loopd Community",
   description:
-    "Explore Loopd Community's structured digital literacy programs designed to empower seniors through technology mentorship.",
+    "Explore Loopd Community's intergenerational programs: art, storytelling, Chai & Chat, games, music, cooking, gardening, and more for seniors and youth.",
 };
 
 export default function ProgramsPage() {
@@ -26,24 +26,24 @@ export default function ProgramsPage() {
       />
 
       <FeatureCards
-        title={content.programs.mentorshipModel.title}
-        subtitle={content.programs.mentorshipModel.description}
-        features={content.programs.mentorshipModel.features}
+        title={content.programs.sessionFormats.title}
+        subtitle={content.programs.sessionFormats.description}
+        features={content.programs.sessionFormats.features}
       />
 
-      <ProgramAccordion
-        title={content.programs.curriculum.title}
-        description={content.programs.curriculum.description}
-        items={content.programs.curriculum.weeks}
+      <ServicesGrid
+        title={content.programs.activities.title}
+        subtitle={content.programs.activities.description}
+        services={content.programs.activities.items}
       />
 
       <ProgramBenefitsSection />
       <ComingSoonSection />
 
       <CTASection
-        title="Ready to Start Learning?"
-        description="Join our Digital Life Made Easy program and start building confidence with technology today. Our patient mentors are here to support you every step of the way."
-        primaryCTA={{ text: "Enroll Now", href: "/contact" }}
+        title="Find an Activity You'll Love"
+        description="Whether it's painting, storytelling, a game of cards, or a cup of chai, there's a place for you at Loopd. Reach out and we'll help you find the right fit."
+        primaryCTA={{ text: "Join a Program", href: "/contact" }}
         secondaryCTA={{ text: "Learn More", href: "/seniors" }}
       />
     </>

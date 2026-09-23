@@ -46,7 +46,7 @@ export default function ChecklistSection({
           {subtitle && (
             <p
               className={`mt-4 text-xl ${
-                dark ? "text-blue-100/70" : "text-gray-500"
+                dark ? "text-secondary-100/70" : "text-gray-500"
               }`}
             >
               {subtitle}
@@ -96,7 +96,7 @@ export default function ChecklistSection({
                 </div>
                 <span
                   className={`leading-relaxed ${
-                    dark ? "text-blue-100/80" : "text-gray-600"
+                    dark ? "text-secondary-100/80" : "text-gray-600"
                   }`}
                 >
                   {item}

@@ -19,7 +19,7 @@ export default function HomePage() {
 
       <FeatureCards
         title="Choose Your Path"
-        subtitle="Whether you're looking to learn, teach, or partner with us, we have a place for you."
+        subtitle="Whether you're looking to join, volunteer, or partner with us, we have a place for you."
         features={content.paths}
       />
 
@@ -35,7 +35,7 @@ export default function HomePage() {
 
       <CTASection
         title="Ready to Get Started?"
-        description="Join the Loopd community today and be part of something meaningful. Whether you're here to learn or teach, your journey starts now."
+        description="Join the Loopd community today and be part of something meaningful. Whether you're here to share a story or hear one, your journey starts now."
         primaryCTA={{ text: "Join Today", href: "/contact" }}
         secondaryCTA={{ text: "View Programs", href: "/programs" }}
       />

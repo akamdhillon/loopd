@@ -66,7 +66,7 @@ export default function IncludedSection() {
         <motion.div variants={fadeInUp} transition={{ duration: 0.5 }} className="mt-8">
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-primary-500 to-primary-600 text-white font-semibold rounded-2xl hover:shadow-lg hover:shadow-primary-500/25 hover:-translate-y-0.5 transition-all duration-300 text-lg"
+            className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-primary-600 to-primary-700 text-white font-semibold rounded-2xl hover:shadow-lg hover:shadow-primary-500/25 hover:-translate-y-0.5 transition-all duration-300 text-lg"
           >
             Schedule a Consultation
           </Link>

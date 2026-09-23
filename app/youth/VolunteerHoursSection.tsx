@@ -36,7 +36,7 @@ export default function VolunteerHoursSection() {
               className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-2xl p-8 text-center hover:bg-white/15 transition-all duration-300"
             >
               <h3 className="text-2xl font-bold mb-3">{item.title}</h3>
-              <p className="text-blue-100/80">{item.description}</p>
+              <p className="text-secondary-100/80">{item.description}</p>
             </motion.div>
           ))}
         </div>
